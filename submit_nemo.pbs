@@ -4,7 +4,7 @@
 # CLUSTER BITS
 #===============================================================
 #PBS -N AMM60_SB
-#PBS -l select=92
+#PBS -l select=100
 #PBS -l walltime=00:20:00
 #PBS -A n01-Shelf
 #PBS -j oe
@@ -39,7 +39,7 @@ cd $WDIR
 echo WORKDIR `pwd`
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 export NEMOproc=2000
-export XIOSproc=40
+export XIOSproc=80
 
 #===============================================================
 # LAUNCH JOB
